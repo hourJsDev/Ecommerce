@@ -1,0 +1,7 @@
+.model{
+    animation: model 1s alternate infinite;
+}
+@keyframes model{
+    0% {transform: rotate(18deg);}
+}
+

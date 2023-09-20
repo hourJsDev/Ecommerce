@@ -1,0 +1,66 @@
+.animation-rotate{
+    animation: animation .6s;
+}
+.animation-rotate-left{
+    animation: animation-left .6s;
+}
+.animation-rotate-right{
+    animation: animation-right .6s;
+}
+@keyframes animation-right{
+    0%{
+        opacity: 0;
+        transform: translateX(10rem);
+    }
+    25%{
+        opacity: .2;
+    }
+    50%{
+        opacity: .5;
+    }
+    75%{
+        opacity: .7;
+    }
+    100%{
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+@keyframes animation-left{
+    0%{
+        opacity: 0;
+        transform: translateX(-10rem);
+    }
+    25%{
+        opacity: .2;
+    }
+    50%{
+        opacity: .5;
+    }
+    75%{
+        opacity: .7;
+    }
+    100%{
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+@keyframes animation{
+    0%{
+        opacity: 0;
+        transform: translateY(10rem);
+    }
+    25%{
+        opacity: .2;
+    }
+    50%{
+        opacity: .5;
+    }
+    75%{
+        opacity: .7;
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
